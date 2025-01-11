@@ -8,7 +8,6 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -23,6 +22,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
+    spring,
+    boot,
+    aws,
+    nextjs,
   } from "../assets";
   
   export const navLinks = [
@@ -80,13 +84,25 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
+    // {
+    //   name: "Java",
+    //   icon: java
+    // },
+    {
+      name: "Java Spring",
+      icon: spring
+    },
+    {
+      name: "Spring Boot",
+      icon: boot
+    },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Next js",
+      icon: nextjs
     },
     {
       name: "Tailwind CSS",
@@ -101,6 +117,10 @@ import {
       icon: mongodb,
     },
     {
+      name: "AWS",
+      icon: aws,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -108,10 +128,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "docker",
       icon: docker,

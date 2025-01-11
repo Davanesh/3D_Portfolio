@@ -16,10 +16,14 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
+import boot from "./tech/boot.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import aws from "./tech/aws.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,10 +39,12 @@ export {
   backend,
   creator,
   mobile,
+  nextjs,
   web,
   github,
   menu,
   close,
+  aws,
   css,
   docker,
   figma,
@@ -46,9 +52,11 @@ export {
   html,
   javascript,
   mongodb,
+  java,
+  spring,
+  boot,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
