@@ -25,8 +25,12 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
 import aws from "./tech/aws.png"
 
+import cloudnest from "./cloudnest.png";
 import doc from "./doc.png";
 import realestate from "./real_estate.png";
+import FarmConnect from "./FarmConnect.png";
+import uberclone from "./uberclone.png";
+
 
 export {
   logo,
@@ -36,6 +40,8 @@ export {
   nextjs,
   web,
   github,
+  cloudnest,
+  uberclone,
   menu,
   realestate,
   close,
@@ -56,4 +62,5 @@ export {
   tailwind,
   typescript,
   threejs,
+  FarmConnect,
 };

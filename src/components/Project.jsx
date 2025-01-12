@@ -17,8 +17,8 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div 
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)} 
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
       className="flex-1 min-w-[300px] max-w-[360px]"
     >
       <Tilt
@@ -90,8 +90,7 @@ const Project = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-
-      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="mt-20 flex flex-row gap-8 overflow-x-scroll scrollbar-hide lg:grid lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

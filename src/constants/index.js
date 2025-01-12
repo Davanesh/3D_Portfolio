@@ -22,6 +22,9 @@ import {
     nextjs,
     doc,
     realestate,
+    cloudnest,
+    FarmConnect,
+    uberclone,
   } from "../assets";
   
   export const navLinks = [
@@ -34,12 +37,12 @@ import {
       title: "Project",
     },
     {
-      id: "resume",
-      title: "Resume",
-    },
-    {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "resume",
+      title: "Resume",
     },
   ];
   
@@ -160,7 +163,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: doc,
+      image: cloudnest,
       source_code_link: "https://github.com/Davanesh/CloudNest",
     },
     {
@@ -224,6 +227,80 @@ import {
       ],
       image: realestate,
       source_code_link: "https://github.com/Davanesh/Real-Estate-Marketplace",
+    },
+    {
+      name: "FarmConnect",
+      description:
+        "FarmConnect is a React Native app connecting farmers and consumers with features like negotiation, dual logins, multi-language support, secure payments, and an AI chatbot for market insights. Developed for a hackathon, it empowers farmers and promotes fresh produce access.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "lime-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "gold-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwinf CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-blue-text-gradient",
+        },
+      ],
+      image: FarmConnect,
+      source_code_link: "https://github.com/Davanesh/FarmConnect",
+    },
+    {
+      name: "Uber Clone",
+      description:
+        "A fully functional Uber clone built with React Native for the mobile interface and Node.js for the backend. Features include user authentication, ride booking, real-time tracking, driver profiles, payment integration, and push notifications. Firebase is used for authentication and real-time database management.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React Navigation",
+          color: "pink-blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "lime-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "gold-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwinf CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Google Maps API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Stripe/PayPal",
+          color: "green-text-gradient",
+        },
+      ],
+      image: uberclone,
+      source_code_link: "https://github.com/Davanesh/Uber_Clone",
     },
   ];
   

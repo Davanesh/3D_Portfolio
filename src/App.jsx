@@ -11,6 +11,9 @@ import {
 } from "./components";
 import "./App.css";
 import Social from "./components/Social";
+import Footer from "./components/footer";
+import Resume from "./components/Resume";
+
 
 const App = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -51,6 +54,8 @@ const App = () => {
         </div>
         <Social/>
       </div>
+      <Resume/>
+      <Footer/>
     </BrowserRouter>
   );
 };
