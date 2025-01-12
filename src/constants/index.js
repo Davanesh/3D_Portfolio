@@ -92,10 +92,10 @@ import {
       name: "Java Spring",
       icon: spring
     },
-    {
-      name: "Spring Boot",
-      icon: boot
-    },
+    // {
+    //   name: "Spring Boot",
+    //   icon: boot
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -132,10 +132,10 @@ import {
     //   name: "figma",
     //   icon: figma,
     // },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
