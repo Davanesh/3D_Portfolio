@@ -3,18 +3,24 @@ import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
-import Works from './Project';
+import Project from './Project';
 import Contact from './Contact';
+import Footer from './Footer';
+import Social from './Social';
+import Resume from './Resume';
 
 export {
   Hero,
   Navbar,
   About,
   Tech,
-  Works,
+  Project,
   Contact,
+  Footer,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Social,
+  Resume,
 }

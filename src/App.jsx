@@ -6,14 +6,13 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
-  StarsCanvas
+  Project,
+  StarsCanvas,
+  Social,
+  Resume,
+  Footer,
 } from "./components";
 import "./App.css";
-import Social from "./components/Social";
-import Footer from "./components/footer";
-import Resume from "./components/Resume";
-
 
 const App = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -42,15 +41,15 @@ const App = () => {
           }}
         />
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
+          <Navbar/>
+          <Hero/>
         </div>
-        <About />
-        <Tech />
-        <Works />
+        <About/>
+        <Tech/>
+        <Project/>
         <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
+          <Contact/>
+          <StarsCanvas/>
         </div>
         <Social/>
       </div>
