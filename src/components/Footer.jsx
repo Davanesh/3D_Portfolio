@@ -1,5 +1,7 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+
 
 const Footer = () => {
   return (
@@ -26,12 +28,12 @@ const Footer = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://leetcode.com/u/8897gGzAr4/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white transition-colors"
           >
-            <FaInstagram size={24} />
+            <SiLeetcode size={24} />
           </a>
         </div>
       </div>

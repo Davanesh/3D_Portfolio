@@ -25,7 +25,6 @@ const ServiceCard = ({ index, title, icon }) => (
           alt='web-development'
           className='w-16 h-16 object-contain'
         />
-
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
@@ -33,12 +32,13 @@ const ServiceCard = ({ index, title, icon }) => (
     </motion.div>
   </Tilt>
 );
+
 const About = () => {
   return (
     <div>
       <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -46,13 +46,14 @@ const About = () => {
       >
         I'm a full-stack developer skilled in Java, JavaScript, and TypeScript, with expertise in frameworks like React, React Native, Node.js, and Java Spring. I specialize in building responsive interfaces, mobile applications, dynamic web solutions, and immersive 3D experiences. Leveraging cloud technologies like AWS and tools such as MongoDB and Firebase, I deliver scalable and efficient solutions. A quick learner and team player, I transform ideas into impactful, user-friendly products. Let’s bring your vision to life!
       </motion.p>
-      <div className='mt-12 flex flex-wrap gap-10'>
+      {/* Grid layout for services */}
+      <div className='mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SectionWrapper(About, "about");

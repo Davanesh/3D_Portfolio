@@ -22,7 +22,7 @@ const Resume = () => {
           <div className="space-y-6 max-w-3xl mx-auto">
             <h3 className="text-2xl font-semibold text-white">More About Me</h3>
             <p className="text-secondary text-lg">
-              I am currently pursuing my Bachelor's in Computer Science at XYZ University, where I have developed a strong foundation in software development and problem-solving skills. I have a deep passion for learning and constantly strive to improve my technical abilities.
+              I am currently pursuing my Bachelor's in Computer Science at Veltech University Chennai, where I have developed a strong foundation in software development and problem-solving skills. I have a deep passion for learning and constantly strive to improve my technical abilities.
             </p>
             <p className="text-secondary text-lg mt-4">
               I am particularly interested in full-stack development and am eager to apply my knowledge in both front-end and back-end technologies. I enjoy working on challenging problems and delivering solutions that improve user experiences.
