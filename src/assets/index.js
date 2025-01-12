@@ -25,14 +25,8 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
 import aws from "./tech/aws.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import doc from "./doc.png";
+import realestate from "./real_estate.png";
 
 export {
   logo,
@@ -43,12 +37,14 @@ export {
   web,
   github,
   menu,
+  realestate,
   close,
   aws,
   css,
   docker,
   figma,
   git,
+  doc,
   html,
   javascript,
   mongodb,
@@ -60,11 +56,4 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
 };

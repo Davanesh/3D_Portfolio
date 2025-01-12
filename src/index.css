@@ -125,6 +125,72 @@
   -webkit-text-fill-color: transparent;
 }
 
+.ocean-text-gradient {
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2b5876, #4e4376); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2b5876, #4e4376); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aqua-text-gradient {
+  background: #13547a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #80d0c7, #13547a); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #80d0c7, #13547a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-text-gradient {
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f7971e, #ffd200); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f7971e, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lime-text-gradient {
+  background: #a8e063; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #a8e063, #56ab2f); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Pink and Blue Gradient */
+.pink-blue-text-gradient {
+  background: #ff9a9e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff9a9e, #fad0c4, #fad0c4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ff9a9e, #fad0c4, #fad0c4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.violet-text-gradient {
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #8e2de2, #4a00e0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #8e2de2, #4a00e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cyan-text-gradient {
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #36d1dc, #5b86e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Purple Gradient */
+.purple-text-gradient {
+  background: #6a11cb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #6a11cb, #2575fc); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6a11cb, #2575fc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
