@@ -4,7 +4,7 @@ const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "public/Davanesh_Resume.pdf";
-    link.download = "Davanesh_Resume.pdf";
+    link.download = "Davanesh's_Resume.pdf";
     link.click();
   };
 
