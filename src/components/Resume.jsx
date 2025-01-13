@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "assets/Davanesh_Resume.pdf";
+    link.href = "public/resume.pdf";
     link.download = "Davanesh's_Resume.pdf";
     link.click();
   };
