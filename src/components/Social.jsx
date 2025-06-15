@@ -11,7 +11,7 @@ const Social = () => {
       <a href="https://github.com/Davanesh" target="_blank" rel="noopener noreferrer">
         <FaGithub size={28} className="text-white hover:text-secondary transition-colors" />
       </a>
-      <a href="https://leetcode.com/u/8897gGzAr4" target="_blank" rel="noopener noreferrer">
+      <a href="https://leetcode.com/u/davanesh" target="_blank" rel="noopener noreferrer">
         <SiLeetcode size={28} className="text-white hover:text-secondary transition-colors" />
       </a>
     </div>
